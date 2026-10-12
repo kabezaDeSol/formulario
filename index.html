@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA UNO</title>
+</head>
+<body>
+    <header>
+        <h1>TAREA NUMERO UNO / DIPLOMATURA PROGRAMACION FULLSTAK / UTN</h1>
+    </header>
+    <main>
+        <h2>My Feedback Form</h2>
+        <form name="formulario">
+            <ul>
+                <li>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </li>
+                <li>
+                    <label for="email">E-MAIL</label>
+                    <input type="email" name="email" id="email" placeholder="nombre@host.com">
+                </li>
+                <li>
+                    <label for="password">CONTRASEÑA</label>
+                    <input type="password" name="password" id="password">
+                </li>
+            </ul>
+        <fieldset>
+            <legend>Please check all the emotions that apply to you:</legend>
+            <ul>
+                <li>
+                    <label for="angry">Angry</label>
+                    <input type="checkbox" name="sad" id="angry">
+                </li>
+                <li>
+                    <label for="sad">sad</label>
+                    <input type="checkbox" name="sad" id="sad">
+                </li>
+                <li>
+                    <label for="happy">happy</label>
+                    <input type="checkbox" name="happy" id="happy">
+                </li>
+                <li>
+                    <label for="ambivalent">ambivalent</label>
+                    <input type="checkbox" name="ambivalent" id="ambivalent">
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>how Satisfied were you with our service?</legend>
+            <ul>
+                <li>
+                    <label for="verys">very Satisfied</label>
+                    <input type="radio" name="emotion" id="verys" value="1">
+                </li>
+                <li>
+                    <label for="satisfied">Satisfied</label>
+                    <input type="radio" name="emotion" id="satisfied" value="2">
+                </li>
+                <li>
+                    <label for="did">Didn't care</label>
+                    <input type="radio" name="emotion" id="did" value="3">
+                </li>
+                <li>
+                    <label for="diss">Dissatisfied</label>
+                    <input type="radio" name="emotion" id="diss" value="4">
+                </li>
+                <li>
+                    <label for="veryd">very Dissatisfied</label>
+                    <input type="radio" name="emotion" id="veryd" value="5">
+                </li>
+            </ul>
+        </fieldset>
+        <label for="comentarios">Further comments</label>
+        <textarea name="comentarios" id="comentarios" rows="7" cols="70"></textarea>
+        <ul>
+            <li>
+                <label for="foto">Bio Photo</label>
+                <input type="file" id="foto" name="foto" accept="image/*">
+            </li>
+            <li>
+                <label for="location">Location Visited: </label>
+                <select name="location" id="location">
+                    <option value="1">Argentina</option>
+                    <option value="2">Francia</option>
+                    <option value="3">Norge</option>
+                    <option value="4" selected disabled>England</option>
+                </select>   
+            </li>
+        </ul>
+        </form>
+
+    </main>
+</body>
+</html>
